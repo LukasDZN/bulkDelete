@@ -12,6 +12,12 @@ This Node.js module provides a script for bulk deleting documents from a MongoDB
 npm install LukasDZN/bulkDeleteDocumentsFromDbBeforeDate
 ```
 
+or
+
+```bash
+yarn add LukasDZN/bulkDeleteDocumentsFromDbBeforeDate
+```
+
 ## Usage
 
 First, create a `bulkDelete.script.js` file, using this code:
