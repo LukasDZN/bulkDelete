@@ -1,0 +1,31 @@
+# Env files
+.env
+.*.env
+.env.*
+# allow .env.example to be committed
+!.env.example
+
+node_modules/
+
+# build files
+# dist/
+
+# cache files
+.cache/
+
+# error files
+yarn-error.log
+
+# VS Code files
+.vscode/
+
+# Test coverage files
+coverage/
+
+# Misc files
+*.dbf
+*.shp
+*.shx
+
+# Dev mode .html files
+*.no-git-commit.*

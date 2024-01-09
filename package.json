@@ -1,0 +1,41 @@
+{
+  "name": "bulk-delete-documents-from-db",
+  "version": "1.0.0",
+  "description": "Script to bulk delete documents from a MongoDB database before a specified date.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm ./dropLogs.script.ts",
+    "build": "tsc"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasDZN/bulkDeleteDocumentsFromDbBeforeDate.git"
+  },
+  "author": "Lukas Dzenkauskas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukasDZN/bulkDeleteDocumentsFromDbBeforeDate/issues"
+  },
+  "homepage": "https://github.com/LukasDZN/bulkDeleteDocumentsFromDbBeforeDate#readme",
+  "dependencies": {
+    "cli-progress": "^3.9.0",
+    "mongoose": "^8.0.3",
+    "ora": "^8.0.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.5",
+    "@types/node": "^20.8.2",
+    "@types/prompt-sync": "^4.2.3",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
