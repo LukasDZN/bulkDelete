@@ -2,10 +2,10 @@
   "name": "bulk-delete-documents-from-db",
   "version": "1.0.0",
   "description": "Script to bulk delete documents from a MongoDB database before a specified date.",
-  "main": "index.js",
+  "main": "dist/bulkDelete.util.js",
   "type": "module",
   "scripts": {
-    "start": "node --loader ts-node/esm ./dropLogs.script.ts",
+    "dev": "node --loader ts-node/esm ./dropLogs.script.ts",
     "build": "tsc"
   },
   "private": true,

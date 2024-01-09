@@ -21,10 +21,10 @@ import bulkDelete from 'LukasDZN/bulkDeleteDocumentsFromDbBeforeDate'
 
 const main = async () => {
   console.log(
-    `\n🚀 Starting ${bulkDeleteDocumentsFromDbBeforeDate.name} script...\n`
+    `\n🚀 Starting ${bulkDelete.name} script...\n`
   )
 
-  await bulkDeleteDocumentsFromDbBeforeDate({
+  await bulkDelete({
     mongoDbUri:
       'mongodb+srv://<your_db_uri@usa.abcdef.mongodb.net?retryWrites=true&w=majority',
     dbName: '<your_db_name>',
@@ -35,7 +35,7 @@ const main = async () => {
   })
 
   console.log(
-    `\n✅ ${bulkDeleteDocumentsFromDbBeforeDate.name} script completed!'\n`
+    `\n✅ ${bulkDelete.name} script completed!'\n`
   )
 
   process.exit(0)
