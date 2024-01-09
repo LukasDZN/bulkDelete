@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Script to bulk delete documents from a MongoDB database before a specified date.",
   "main": "dist/bulkDelete.util.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/bulkDelete.util.js"
+  ],
   "type": "module",
   "scripts": {
     "dev": "node --loader ts-node/esm ./dropLogs.script.ts",
