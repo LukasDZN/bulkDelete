@@ -1,9 +1,12 @@
+import dotenv from 'dotenv'
 import bulkDelete from './bulkDelete.util.js'
+
+dotenv.config()
 
 /**
  * @usage
  * Run script with command (while terminal is in the same directory as this script):
- * node --loader ts-node/esm ./bulkDelete.script.ts
+ * node --loader ts-node/esm ./src/bulkDelete.script.ts
  */
 
 console.log(`\n🚀 Starting ${bulkDelete.name} script...\n`)

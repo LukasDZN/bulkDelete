@@ -23,8 +23,8 @@
   "author": "Lukas Dzenkauskas",
   "contributors": [
     {
-        "name": "Lukas Dzenkauskas",
-        "url": "https://github.com/LukasDZN"
+      "name": "Lukas Dzenkauskas",
+      "url": "https://github.com/LukasDZN"
     }
   ],
   "keywords": [
@@ -43,7 +43,7 @@
     "interface",
     "terminal",
     "prompt"
-],
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LukasDZN/bulkDelete/issues"
@@ -61,6 +61,7 @@
     "@types/prompt-sync": "^4.2.3",
     "@typescript-eslint/eslint-plugin": "^6.6.0",
     "@typescript-eslint/parser": "^6.6.0",
+    "dotenv": "^16.3.1",
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",

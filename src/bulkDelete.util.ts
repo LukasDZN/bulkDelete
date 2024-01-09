@@ -188,7 +188,8 @@ const bulkDelete = async ({
   const dateString = deleteBeforeThisDate.toISOString().split('T')
   const formattedDateString = dateString[0] + ' ' + dateString[1].split('.')[0]
   const promptMessage =
-    `⚠️   Are you sure you want to delete ${toBeDeletedDocumentCount.toLocaleString()} documents created before ` +
+    `⚠️   Are you sure you want to delete ${toBeDeletedDocumentCount.toLocaleString()} documents
+Created before ` +
     formattedDateString +
     ` from '${collectionName}' collection? (y/n) `
   console.log(promptMessage)
