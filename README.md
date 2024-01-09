@@ -20,7 +20,7 @@ yarn add LukasDZN/bulkDelete
 
 ## Usage
 
-First, create a `bulkDelete.script.js` file, and copy-paste this code:
+First, create a `bulkDelete.script.js` or `bulkDelete.script.ts` file, and copy-paste this code:
 
 ```js
 import bulkDelete from 'LukasDZN/bulkDelete'
@@ -51,6 +51,13 @@ main()
 ```
 
 Then, run the script by using this command in the terminal (while the terminal is running in the same directory as this script):
+
 ```bash
-node ./dropLogs.script.js
+node ./bulkDelete.script.js
+```
+
+or 
+
+```bash
+node --loader ts-node/esm ./bulkDelete.script.ts
 ```

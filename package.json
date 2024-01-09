@@ -12,7 +12,7 @@
   ],
   "type": "module",
   "scripts": {
-    "dev": "node --loader ts-node/esm ./dropLogs.script.ts",
+    "dev": "node --loader ts-node/esm ./src/bulkDelete.script.ts",
     "build": "tsc"
   },
   "private": true,

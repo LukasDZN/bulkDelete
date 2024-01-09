@@ -20,7 +20,7 @@ import prompt from 'prompt-sync'
  *
  * @usage
  * Run script with command (while terminal is in the same directory as this script):
- * node --loader ts-node/esm ./dropLogs.script.ts
+ * node --loader ts-node/esm ./bulkDelete.script.ts
  */
 
 const validateDate = (date: Date) => {
