@@ -6,7 +6,9 @@
   "files": [
     "LICENSE",
     "README.md",
-    "dist/bulkDelete.util.js"
+    "dist/bulkDelete.util.js",
+    "dist/bulkDelete.util.js.map",
+    "dist/bulkDelete.util.d.ts"
   ],
   "type": "module",
   "scripts": {
