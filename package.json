@@ -1,5 +1,5 @@
 {
-  "name": "bulk-delete-documents-from-db",
+  "name": "bulk-delete",
   "version": "1.0.0",
   "description": "Script to bulk delete documents from a MongoDB database before a specified date.",
   "main": "dist/bulkDelete.util.js",
@@ -16,14 +16,37 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LukasDZN/bulkDeleteDocumentsFromDbBeforeDate.git"
+    "url": "git+https://github.com/LukasDZN/bulkDelete.git"
   },
   "author": "Lukas Dzenkauskas",
+  "contributors": [
+    {
+        "name": "Lukas Dzenkauskas",
+        "url": "https://github.com/LukasDZN"
+    }
+  ],
+  "keywords": [
+    "mongodb",
+    "bulk",
+    "delete",
+    "documents",
+    "logs",
+    "script",
+    "util",
+    "utility",
+    "tool",
+    "cli",
+    "command",
+    "line",
+    "interface",
+    "terminal",
+    "prompt"
+],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LukasDZN/bulkDeleteDocumentsFromDbBeforeDate/issues"
+    "url": "https://github.com/LukasDZN/bulkDelete/issues"
   },
-  "homepage": "https://github.com/LukasDZN/bulkDeleteDocumentsFromDbBeforeDate#readme",
+  "homepage": "https://github.com/LukasDZN/bulkDelete#readme",
   "dependencies": {
     "cli-progress": "^3.9.0",
     "mongoose": "^8.0.3",
